@@ -1,0 +1,94 @@
+/* Font import nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+* {
+ font-family: "Nunito", sans-serif;
+ color: darkslategrey;
+}
+/* Link decoration underline etc */
+ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+/* Nav bar styling */
+nav {
+  background-color: lightgrey;
+    color: darkslategrey;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+
+  /* Contents in the navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+  }
+
+/* Navbar title */
+  .navbar h4 {
+    color: deeppink;
+  }
+
+/* Home and Hex links */
+  .nav-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Gap between Home and Hex */
+  nav a {
+    font-size: 15px;
+    color: darkslategrey;
+    margin-right: 1rem;
+
+  }
+
+  /* Colour change hover action */
+  nav a:hover {
+    color: deeppink;
+  }
+
+/* Main page, label and button */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container that holds 'Colour:' */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Heading of Colour: */
+h2 {
+  align-items: center;
+  background-color: lightgrey;
+  color: deeppink;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Button styling */
+#btn {
+color: darkslategrey ;
+border-radius: 10px;
+font-size: 15px;
+padding: 25px;
+}
+
+/* Button hover */
+#btn:hover {
+  color: deeppink;
+  background:lightgrey;
+}
+
