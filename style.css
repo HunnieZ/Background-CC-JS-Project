@@ -92,3 +92,38 @@ padding: 25px;
   background:lightgrey;
 }
 
+/* Media Queries Below: */
+
+/* MOBILE  480px */
+@media (max-width: 480px) {
+  * {
+    font-size: x-small;
+  }
+
+  nav {
+      height: 80px;
+    }
+    .nav-links {
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      font-size: x-small;
+    }
+
+    h2 {
+      align-items: center;
+      background-color: lightgrey;
+      color: deeppink;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  
+    #btn {
+      color: darkslategrey ;
+      border-radius: 10px;
+      font-size: x-small;
+      padding: 0px;
+      }
+    
+}
