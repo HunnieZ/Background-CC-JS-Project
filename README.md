@@ -1,2 +1,1 @@
-The task was to create a javaScript based project. This was a background colour changing page with JS functionality.
-One was simple page with RGB colours that pulled from a fairly simple array, the other was a more complex hex colours page which pulled from a more complex array of components that generate hexcodes.
+First simple project utilising html, CSS and JavaScript. The 'home' page pulls from an array of simple primary colours defined by name, where as the 'hex' page pulls from an array of characters which combined make up the hex colour profiles.
